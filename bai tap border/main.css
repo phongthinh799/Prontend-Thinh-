@@ -1,0 +1,36 @@
+h2 {
+    font-size: 50px;
+    color: #CC6600;
+}
+.food-table {
+    border:  1px solid #9400D3;
+    border-collapse: collapse;
+}
+th{
+    border:  1px solid #9400D3;
+}
+
+.food-table td {
+    border:  1px solid #9400D3;
+    border-collapse: collapse;
+}
+
+.image-container {
+    vertical-align: center;
+}
+
+.title {
+    margin-top: 2;
+}
+
+.xyz{
+    background-color: #CC6600;
+}s
+.zaq{
+    background-color: #ffedca;
+}
+table{
+    background-color:#ffedca ;
+}
+
+

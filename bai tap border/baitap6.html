@@ -1,50 +1,102 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
   <style>
-    h2 {
-      color: #CC0033;
+   
+    table{
+      text-align: center;
     }
-
-    table,
-    th,
-    td {
-      border: 1px solid orange;
+    h1{
+      color:red;
+    }
+    table {
+      width: 90%;
+    }
+    table, td {
+      
+      border: 1px solid rgb(219, 126, 27);
       border-collapse: collapse;
-
     }
 
-    th,
-    td {
-      padding: 5px;
-      text-align: left;
-
-    }
   </style>
-  <link rel="stylesheet" href="./main.css">
 </head>
-
 <body>
-  <h2 style="text-align:center;">Chương trình học - ngành lập trình</h2>
-  <table style="width:100%">
-    <thead>
-      <tr>
-        <th>Nhóm học phần</th>
-        <th>Môn học</th>
-        <th>Số tiết</th>
-      </tr>
-    </thead>
-    
-    <tr>
-      <th rowspan="2">I<br>Tin học văn phòng</th>
+  <h1 style="text-align:center">Chương trình học - ngành lập trình </h1>
+  <table align="center">
+ 
+    <tr style="background-color: #DC143C">
+      <td rowspan="2">Nhóm học phần</td>
+      <td rowspan="2">Môn Học</td>
+      <td colspan="2">Tiết Học</td>
+  
+    </tr>
+
+    <tr  style="background-color: #DC143C">
+
+      <td>Lý Thuyết</td>
+      <td>Thực Hành</td>
 
     </tr>
 
+    <tr>
+      <td rowspan="6">I <br>
+         Tin học văn phòng</td>
+      <td>Hệ điều hành Windows</td>
+      <td>3</td>
+      <td>5</td>
+    </tr>
+
+    <tr>
+      <td>Sử dụng Internet</td>
+      <td>3</td>
+      <td>5</td>
+    </tr>
+   
+    <tr>
+      <td>Soạn thảo văn bản với MS Word</td>
+      <td>24</td>
+      <td>40</td>
+    </tr>
+
+    <tr>
+      <td>Tạo bài trình diễn với MS PowerPoint</td>
+      <td>9</td>
+      <td>15</td>
+    </tr>
+
+    <tr>
+      <td>Xử lí số liệu với MS Excel</td>
+      <td>24</td>
+      <td>40</td>
+    </tr>
+
+    <tr>
+      <td>Tạo trang Web với MS ProntPage</td>
+      <td>9</td>
+      <td>15</td>
+    </tr>
+
+    <tr>
+      <td rowspan="2">II <br>
+        Kỹ thuật lập trình(VB,NET)</td>
+      <td>Nhập môn lập trình</td>
+      <td>36</td>
+      <td>60</td>
+    </tr>
+    
+    <tr>
+      <td>Kỹ thuật lập trình</td>
+      <td>36</td>
+      <td>60</td>
+    </tr>
+
+    <tr text-align: left;>
+      <td colspan="4" style="text-align:left">.....</td>
+    </tr>
   </table>
-
-
-
 </body>
-
 </html>
