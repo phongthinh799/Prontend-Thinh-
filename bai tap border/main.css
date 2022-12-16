@@ -8,6 +8,8 @@ h2 {
 }
 th{
     border:  1px solid #9400D3;
+    background-color:#CC6600;
+    color: white;
 }
 
 .food-table td {
@@ -23,9 +25,7 @@ th{
     margin-top: 2;
 }
 
-.xyz{
-    background-color: #CC6600;
-}s
+
 .zaq{
     background-color: #ffedca;
 }
