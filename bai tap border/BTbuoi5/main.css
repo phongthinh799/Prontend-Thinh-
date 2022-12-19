@@ -1,0 +1,45 @@
+h1 {
+    color: #008000;
+    text-align: center;
+}
+
+.bg-green {
+    background-color: #98FB98;
+}
+
+.bvc {
+    display: inline-block;
+    width: 25%;
+    margin-bottom: 20px;
+    font-size: 20px;
+    vertical-align: middle;
+    color: #008000;
+}
+
+.cvb {
+    display: inline-block;
+    width: 25%;
+    margin-bottom: 20px;
+    font-size: 20px;
+    vertical-align: middle;
+    color: #008000;
+}
+
+.list-product {
+    font-size: 0;
+}
+
+.itemss {
+    color: #FF1493;
+    margin-bottom: 5px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.itemz {
+    display: inline-block;
+    width: 25%;
+    margin-bottom: 20px;
+    font-size: 20px;
+    vertical-align: middle;
+}
