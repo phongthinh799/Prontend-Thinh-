@@ -12,11 +12,18 @@
             border: 1px solid black;
             border-collapse: collapse;
             color: #008000;
+
+        }
+
+        .h {
+            border: 1px solid black;
+            border-collapse: collapse;
+
         }
 
         .dang-nhap td {
             border: 1px solid black;
-            background-color: #98FB98 ;
+            background-color: #98FB98;
             color: #008000;
         }
 
@@ -30,23 +37,26 @@
 <body>
     <td>
         <h1>Phiếu đăng kí tham gia chương trình khuyến mãi</h1>
-        <table width="1000px" align="center" class="dang-nhap">
+        <table align="center" class="dang-nhap">
             <tr>
-                <td colspan="2"> Họ và tên</td>
-                <td><input type="text" id="fname" name="fname" value=" Nguyễn Ngọc Quỳnh Nga"></td>
+                <td width="200px" colspan="2"> Họ và tên</td>
+                <td width="470px"><input  size="55%" type="text" id="fname" name="fname" value=" Nguyễn Ngọc Quỳnh Nga"></td>
             </tr>
             <tr>
                 <td colspan="2">Địa chỉ</td>
-                <td><input type="text" id="fname" name="fname" value="2Bia Hùng Vương, Q10"><br></td>
+                <td><input size="44%" type="text" id="fname" name="fname" value="2Bia Hùng Vương, Q10"><br></td>
             </tr>
             <tr>
                 <td colspan="2">Điện thoại</td>
-                <td><input type="text" id="fname" name="fname" value="0909097506"></td>
+                <td><input size="30%" type="text" id="fname" name="fname" value="0909097506"></td>
             </tr>
             <tr>
                 <td colspan="2">Phái</td>
-                <td><input type="checkbox" id="abc" name="subject"><label for="abc">Nam</label><input
-                    type="checkbox" id="abc" name="subject"><label for="abc">Nữ</label></td>
+                <td><input  type="radio" id="" name="subject">
+                    <label for="css">Nam</label>
+                    <input type="radio" id="css" name="subject">
+                    <label for="">Nữ</label>
+                </td>
             </tr>
             <tr>
                 <td colspan="2">Nghề Nghiệp</td>
@@ -57,12 +67,27 @@
                 </td>
             </tr>
             <tr>
-                <td colspan="2">Chọn sản phẩm tham gia </td>
-                <td></td>
+                <td colspan="2">Chọn sản phẩm tham gia</td>
+                <td>
+                    <table class="h">
+                        <tr>
+                            <td  style="color:#FFFFFF;background-color:blue;">Kem đánh răng</td>
+                        </tr>
+                        <tr>
+                            <td style="color: black;background-color:#FFFFFF">Bột giặt</td>
+                        </tr>
+                        <tr>
+                            <td style="color:#FFFFFF;background-color:blue;">Dầu gội đầu</td>
+                        </tr>
+                        <tr>
+                            <td style="color: black;background-color:#FFFFFF">Sữa tắm</td>
+                        </tr>
+                    </table>
+                </td>
             </tr>
             <tr>
-                <td colspan="2">Số người dự đoán tham gia </td>
-                <td><input type="text" id="fname" name="fname" value="250000"></td>
+                <td colspan="2">Số người dự đoán tham gia</td>
+                <td><input size="8%" type="text" id="fname" name="fname" value="250000"></td>
             </tr>
             <tr>
                 <td colspan="4" style="text-align:center"> <input type="submit" value="Đồng ý">
@@ -76,9 +101,3 @@
 </body>
 
 </html>
-
-
-
-
-
-
