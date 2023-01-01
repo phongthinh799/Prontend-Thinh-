@@ -1,6 +1,7 @@
 h2 {
     font-size: 50px;
     color: #CC6600;
+ 
 }
 .food-table {
     border:  1px solid #9400D3;
@@ -21,9 +22,7 @@ th{
     vertical-align: center;
 }
 
-.title {
-    margin-top: 2;
-}
+
 
 
 .zaq{

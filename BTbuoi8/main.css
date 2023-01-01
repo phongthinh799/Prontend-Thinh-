@@ -1,0 +1,72 @@
+
+
+.relative {
+    width: 100%;
+    background-color: #FFFFFF;
+    position: relative;
+}
+
+.top {
+    display: flex;
+    justify-content:space-between;
+    
+}
+.top div {
+    background-color: #66FF33;
+    border: 1px solid #66FF33;
+    padding: 29px 34px;
+    margin: 1px;
+    margin-bottom: 330px;  
+}
+
+.box1 { 
+	top: 299px;
+	left: 760px;
+    color: black;
+	position: absolute;
+	background-color: red;
+	width: 45px;
+	height: 35px;
+    text-align: center;
+    padding: 10px 25px;
+    transform: translateX(0%) translateY(100%);
+}
+.box2 { 
+	top: 354px;
+	right: 864px;
+    color: black;
+	position: absolute;
+	background-color: red;
+	width: 45px;
+	height: 35px;
+    text-align: center;
+    padding: 10px 25px;
+    transform: translateX(100%) translateY(0%);
+}
+.box3{
+    top: 488px;
+	right: 864px;
+    color: black;
+	position: absolute;
+	background-color: red;
+	width: 45px;
+	height: 35px;
+    text-align: center;
+    padding: 10px 25px;
+    transform: translateX(100%) translateY(0%);
+}
+.box4 { 
+	top: 433px;
+	left: 760px;
+    color: black;
+	position: absolute;
+	background-color: red;
+	width: 45px;
+	height: 35px;
+    text-align: center;
+    padding: 10px 25px;
+    transform: translateX(0%) translateY(100%);
+}
+
+
+
