@@ -7,7 +7,7 @@
     margin-right: auto;
 }
 
-.header {
+.top {
     display: flex;
     flex-wrap: wrap;
 }
@@ -17,8 +17,7 @@
     background-color: #D3D3D3;
     padding: 0px 10px 60px;
     width: 750px;
-    font-size: 18px;
-    
+    font-size: 18px;  
 }
 
 .opt {
@@ -27,30 +26,39 @@
     width: 750px;
     padding: 0px 10px;
     height:35px;
-    font-size:18px;
+    font-size:15px;
 }
+
 .middle{
     display: flex;
     flex-wrap: wrap;
 }
+
 .column1{
     background-color: 	#90EE90;
     width:520px;
     padding: 0px 10px;
     height:430px;
 }
+
 .column2{
     width:230px;
     background-color:#9370D8;
     padding: 0px 10px;
     height:430px;
 }
+
 .color1{
     color:blue;
 }
+
 .bottom{
     background-color: #F0E68C;
-    padding: 0px 10px 10px; 
+    padding: 0px 10px 5px; 
+}
+
+li{
+    padding:0px 30px;
 }
 
 
