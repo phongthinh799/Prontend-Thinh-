@@ -1,14 +1,24 @@
-
+*{
+    margin: 0;
+    padding: 0;
+   
+}
 
 .relative {
     width: 100%;
     background-color: #FFFFFF;
     position: relative;
+    display: flex;
+    justify-content:space-between;
+    
 }
 
 .top {
     display: flex;
-    justify-content:space-between;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+   
     
 }
 .top div {
@@ -16,11 +26,12 @@
     border: 1px solid #66FF33;
     padding: 29px 34px;
     margin: 1px;
-    margin-bottom: 330px;  
+    margin-bottom: 346px;  
+    align-items: flex-start;
 }
 
 .box1 { 
-	top: 299px;
+	top: 315px;
 	left: 760px;
     color: black;
 	position: absolute;
@@ -32,8 +43,8 @@
     transform: translateX(0%) translateY(100%);
 }
 .box2 { 
-	top: 354px;
-	right: 864px;
+	top: 370px;
+	right: 879px;
     color: black;
 	position: absolute;
 	background-color: red;
@@ -44,8 +55,8 @@
     transform: translateX(100%) translateY(0%);
 }
 .box3{
-    top: 488px;
-	right: 864px;
+    top: 504px;
+	right: 879px;
     color: black;
 	position: absolute;
 	background-color: red;
@@ -56,7 +67,7 @@
     transform: translateX(100%) translateY(0%);
 }
 .box4 { 
-	top: 433px;
+	top: 449px;
 	left: 760px;
     color: black;
 	position: absolute;
