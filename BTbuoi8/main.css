@@ -1,148 +1,91 @@
 *{
     margin: 0;
     padding: 0;
-   
-}
-
-.relative {
     width: 100%;
-    background-color: #FFFFFF;
-    position: relative;  
+    height: 100%;
 }
-.topleft{
-    top: 0px;
-	left: 0px;
-    color: black;
-	position: absolute;
-	background-color:#66FF33;
-    text-align: center;
-    padding: 30px 40px;
-    transform: translateX(0px) translateY(0px);
 
+.container{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.container > div{
+    position: absolute;
+    background-color:#66FF33;
+    width: 140px;
+    height: 60px;
+    text-align: center;
+    line-height: 60px;
+    font-size: 20px;
+    padding: 15px 20px;
+}
+
+.topleft{
+   left:0;
 }
 .topcenter{
-    top: 0%;
-	left: 880px;
-    color: black;
-	position: absolute;
-	background-color:#66FF33;
-    text-align: center;
-    padding: 30px 35px;
-    transform: translateX(0%) translateY(0%);
-  
+    left: 45.5%;  
 }
 .topright{
-    top: 0px;
-	right:0px;
-    color: black;
-	position: absolute;
-	background-color:#66FF33;
-    text-align: center;
-    padding: 30px 35px;
-    transform: translateX(0px) translateY(0px)
+    right: 0;
 }
-.leftcenter{
-    top: 425px;
-	left:0px;
-    color: black;
-	position: absolute;
-	background-color:#66FF33;
-    text-align: center;
-    padding: 30px 32px;
-    transform: translateX(0px) translateY(2px);
+.centerleft{
+    top: 45.5%;
+    
 }
-.center{
-    top: 425px;
-	left:880px;
-    color: black;
-	position: absolute;
-	background-color:#66FF33;
-    text-align: center;
-    padding: 30px 32px;
-    transform: translateX(0px) translateY(2px);
+.centercenter{
+    left: 45.5%;
+    top: 45.5%;
+
 }
-.rightcenter{
-    top: 425px;
-	right:0px;
-    color: black;
-	position: absolute;
-	background-color:#66FF33;
-    text-align: center;
-    padding: 30px 32px;
-    transform: translateX(0px) translateY(2px);
+.centerright{
+    right: 0;
+    top: 45.5%;
+    
 }
 .bottomleft{
-    top: 850px;
-	left:0px;
-    color: black;
-	position: absolute;
-	background-color:#66FF33;
-    text-align: center;
-    padding: 30px 32px;
-    transform: translateX(0px) translateY(2px);
-
+    bottom: 0;
 }
 .bottomcenter{
-    top: 850px;
-	left:880px;
-    color: black;
-	position: absolute;
-	background-color:#66FF33;
-    text-align: center;
-    padding: 30px 32px;
-    transform: translateX(0px) translateY(2px);
+    left: 45.5%;
+    bottom: 0;
+    
 }
+
 .bottomright{
-    top: 850px;
-	right:0px;
-    color: black;
-	position: absolute;
-	background-color:#66FF33;
+    right: 0;
+    bottom: 0;
+}
+.centercenter > div{
+    width: 100px;
+    height: 40px;
+    background-color: red;
+    position: absolute;
     text-align: center;
-    padding: 30px 32px;
-    transform: translateX(0px) translateY(2px);
-
+    line-height: 40px;
+    padding: 7px 5px;
 }
 
-.box1 { 
-	top: 329px;
-	left: 790px;
-    color: black;
-	position: absolute;
-	background-color: red;
-    text-align: center;
-    padding: 15px 30px;
-    transform: translateX(0px) translateY(50px);
+.div1{
+    left: -100px;
+    top: -40px;
+    transform: translateX(-9%) translateY(-26%);
 }
-.box2 { 
-	top: 329px;
-	right: 769px;
-    color: black;
-	position: absolute;
-	background-color: red;
-    text-align: center;
-    padding: 15px 30px;
-    transform: translateX(0px) translateY(50px);
-}
-.box3{
-    top: 455px;
-	right: 769px;
-    color: black;
-	position: absolute;
-	background-color: red;
-    text-align: center;
-    padding: 15px 30px;
-    transform: translateX(0px) translateY(50px);
-}
-.box4 { 
-	top: 455px;
-	left: 788px;
-    color: black;
-	position: absolute;
-	background-color: red;
-    text-align: center;
-    padding: 15px 30px;
-    transform: translateX(0px) translateY(50px);
+.div2{
+    right: -100px;
+    top: -40px;
+    transform: translateX(9%) translateY(-26%);
 }
 
-
+.div3{
+    left: -100px;
+    bottom: -40px;
+    transform: translateX(-9%) translateY(26%);
+}
+.div4{
+    right: -100px;
+    bottom: -40px;
+    transform: translateX(9%) translateY(26%);
+}
