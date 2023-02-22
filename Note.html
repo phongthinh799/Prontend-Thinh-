@@ -1,0 +1,63 @@
+Tuần2 01-02-03-04-05-06-07 {
+ ---Reset css   
+ Display: float, inline-block, block, inline, flex
+ Không cố định width height
+
+ ---Position
+ Relative / Absolute / Fixed / Sticky
+
+ * : đại diện cho tất cả phần tử 
+ box-sizing : boder-box
+
+ ---chuyển đổi đơn vị dùng: calc();
+    hoặc dùng transform: translate();
+    z-index: là thuộc tính tăng lên
+
+ ---float: left|right
+    clear: left|right|both (Loại bỏ sự ảnh hưởng của float ra pt cha)
+
+ ---khoảng cách giữ từng kí tự : Letter-spacing 
+    từng từ: Word-spacing   
+
+ --- 1.trong 1 cấp HTML chỉ chia 1 chiều 
+       + từ trên xuống dưới
+       + từ trái sang phải
+     2.nếu trong cấp n gặp phải chia layout 2 chiều. Phải chọn chiều ngược lại đẩy vào cấp n+1
+
+ --- ẩn đi phần thừa dùng : Overflow
+
+ --- 1.Block: 
+            width mặc định luôn luôn là 100%
+            có thể set width, height bằng css
+            luôn đứng 1 mình trên 1 hàng
+     2.Inline-block: 
+                     width mặc định = với content bên trong
+                     kh thay đổi đc width, height
+                     có thể đứng chung hàng với các element inline bên cạnh (nếu có thể)
+
+     6 vị trí theo chiều ngang và dọc
+     Ngang: Left
+            Center
+            Right
+
+     Dọc:   Top
+            Middle
+            Bottom 
+
+     Display: block
+              inline ( thường đưa về inline-block)
+              inline-block  
+
+    -> Dùng margin đưa 1 block element 
+        +Center: margin left, right = aotu
+        +Right: margin-left = aotu, margin-right = 0
+ 
+   Inline-block: 
+                khắc phục được nhược điẻm của float
+                có thể khảo sát 6 vị trí - chia column
+                có thể xét được width, height (khác với inline)
+
+              
+}
+
+ 
