@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 1000px;
+    margin: 0 auto;
+    background-color: aqua;
+}
+
+.row {
+    font-size: 0;
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+.row .item {
+    display: inline-block;
+    font-size: 16px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-bottom: 30px;
+}
+
+.row.column-2 .item {
+    width: 50%;
+}
+
+.row.column-3 .item {
+    width: 35%;
+}
+
+.row.column-4 .item {
+    width: 25%;
+}
+
+.row.column-5 .item {
+    width: 15%;
+}
+
+
+.product {
+    background-color: blueviolet;
+
+}
